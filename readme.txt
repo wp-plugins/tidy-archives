@@ -21,15 +21,15 @@ followed by a list of previous years.
 So the idea is to have the archives displayed like this example:
 
 February 2011
-- Post 3
-- Post 2
-- Post 1
+* Post 3
+* Post 2
+* Post 1
 
 January 2011
-- Post 4
-- Post 3
-- Post 2
-- Post 1
+* Post 4
+* Post 3
+* Post 2
+* Post 1
 
 2010
 2009
@@ -38,8 +38,8 @@ January 2011
 == Installation ==
 
 1. Upload `tidy-archives` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php tidy_archives(); ?>` in your templates
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Place `<?php tidy_archives(); ?>` in your templates
 
 == Frequently Asked Questions ==
 
