@@ -20,13 +20,12 @@ followed by a list of previous years.
 
 So the idea is to have the archives displayed like this example:
 
-February 2012
+February 2011
 +Post 3
 +Post 2
 +Post 1
 
 January 2011
-
 +Post 4
 +Post 3
 +Post 2
