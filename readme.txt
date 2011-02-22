@@ -4,8 +4,9 @@ Donate link: http://www.jeangalea.com/wordpress/tidy-archives/
 Tags: archives
 Requires at least: 2.9
 Tested up to: 3.1
+Stable tag: trunk
 
-Tidy Archives will display your archives in a practical way. It displays links to monthly archives together with direct post links for the current year, while for previous years it only displays a link to the yearly archives.
+Tidy Archives will display your archives in a practical way. 
 
 == Description ==
 
