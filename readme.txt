@@ -11,7 +11,7 @@ Tidy Archives will display your archives in a practical way.
 
 Tidy Archives will display your archives in a practical way. It displays links to monthly archives together with direct post links for the current year, while for previous years it only displays a link to the yearly archives.
 
-The format in short:
+__The format in short:__
 
 Month Year
 - list of posts in that month
