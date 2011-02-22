@@ -47,7 +47,7 @@ Have a question? Email me on wordpress@jeangalea.com
 
 == Screenshots ==
 
-1. This screen shot description corresponds to Tidy-Archives.png. It shows Tidy Archives in action on a page template.
+This screen shot description corresponds to Tidy-Archives.png. It shows Tidy Archives in action on a page template.
 
 == Changelog ==
 
