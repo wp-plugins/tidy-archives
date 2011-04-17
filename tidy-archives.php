@@ -50,7 +50,7 @@ function tidy_archives() {
         if ( $cyp->month <> $curr_month ) {            
             if ($curr_month <> 0 && $cyp->month < $curr_month ) echo '</ul>';
             echo '<li><a href="' . get_month_link( '', $cyp->month ) . '">' . $cyp->monthname . date(' Y') . '</a></li>';                
-            echo '<ul><li><a href="'. get_permalink( $cyp->id ) . '">' . $cyp->post_title . '</a></li>';            
+            echo '<ul><li><a href="'. get_permalink( $cyp->id ) . '">' . $cyp->post_title . ' ('. $cyp->post_date . ')</a></li>';            
             $curr_month = $cyp->month;
         }
         else { echo '<li><a href="'. get_permalink( $cyp->id ) . '">' . $cyp->post_title . ' ('. $cyp->post_date . ')</a></li>'; }        
