@@ -36,7 +36,7 @@ function tidy_archives() {
     
     // Get all months in current year which contain posts AND the posts from each of these months
     $current_year_posts = $wpdb->get_results("
-    SELECT distinct monthname(post_date) AS monthname, month(post_date) AS month, post_title, id
+    SELECT distinct monthname(post_date) AS monthname, month(post_date) AS month, post_title, post_date, id
         FROM wp_posts
         WHERE post_type = 'post' 
         AND post_status = 'publish'
@@ -53,7 +53,7 @@ function tidy_archives() {
             echo '<ul><li><a href="'. get_permalink( $cyp->id ) . '">' . $cyp->post_title . '</a></li>';            
             $curr_month = $cyp->month;
         }
-        else { echo '<li><a href="'. get_permalink( $cyp->id ) . '">' . $cyp->post_title . '</a></li>'; }        
+        else { echo '<li><a href="'. get_permalink( $cyp->id ) . '">' . $cyp->post_title . ' ('. $cyp->post_date . ')</a></li>'; }        
     }
     echo '</ul>'; echo '</ul>';    
 
