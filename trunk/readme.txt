@@ -44,7 +44,7 @@ January 2011
 
 == Frequently Asked Questions ==
 
-Have a question? Email me on wordpress@jeangalea.com
+Have a question? Email me on wordpress@jeangalea.com.
 
 == Screenshots ==
 
