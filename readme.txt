@@ -52,5 +52,8 @@ Have a question? Email me on wordpress@jeangalea.com.
 
 == Changelog ==
 
+= 1.1 =
+* Added options panel and ability to display date (optional)
+
 = 1.0 =
 * First release
