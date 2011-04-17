@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: jeangalea
 Donate link: http://www.jeangalea.com/wordpress/tidy-archives/
-Tags: archives
+Tags: archives, tidy
 Requires at least: 2.9
 Tested up to: 3.1
 
